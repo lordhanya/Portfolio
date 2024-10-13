@@ -676,4 +676,18 @@ span{
     .services-container{
         grid-template-columns: repeat(1,1fr);
     }
+
+    .service-info h4{
+        margin-top: -20px;
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 1.5;
+    }
+
+    .service-info p{
+        font-size: 1.65rem;
+        font-weight: 600;
+        max-height: 100px;
+        line-height: 1.8;
+    }
 }
