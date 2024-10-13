@@ -65,8 +65,7 @@ body{
     border-bottom: 3px solid transparent;
 }
 
-.navbar a:hover,
-.navbar a.active{
+.navbar a:hover{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
@@ -119,31 +118,14 @@ span{
     line-height: 1;
 }
 
-.home-content p1{
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: .1rem;
-    line-height: 1.2;
-    text-align: justify;
-}
-
-.home-content p2{    
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: 1.5rem;
-    line-height: 1.2;
-    text-align: justify;
-
-}
-
 .home img{
     border-radius: 50%;
 }
 
 .home-img img{
     position: relative;
-    top: 1.5rem;
-    width: 25vw;
+    top: 3rem;
+    width: 32vw;
     border-radius: 50%;
     box-shadow: 0 0 25px rgb(135, 255, 255);
     cursor: pointer;
@@ -155,6 +137,13 @@ span{
                 0 0 35px var(--main-color),
                 0 0 50px var(--main-color);
                 transition: 0.3s ease-in-out;
+}
+
+.home-content p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8;
+    max-width: 1000px;
 }
 
 .social-icons a{
@@ -404,7 +393,7 @@ span{
     border-left: 6px solid var(--main-color);
     height: 400px;
     position: absolute;
-    left: 50.3%;
+    left: 50.2%;
     margin-left: -3px;
     top: 0;
 }
@@ -588,18 +577,18 @@ span{
 
 @media(max-width:1285px){
     html{
-        font-size: 53%;
+        font-size: 55%;
     }
     .services-container{
         padding-bottom: 7rem;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
 }
 
 @media(max-width:991px){
     .header{
-        padding: 2 rem 3%;
+        padding: 2rem 3%;
     }
     section{
         padding: 10rem 3% 2rem;
@@ -643,7 +632,7 @@ span{
         right: 0;
         width: 50%;
         padding: 1rem 3%;
-        background: black;
+        background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
@@ -685,6 +674,6 @@ span{
         margin-bottom: 3rem;
     }
     .services-container{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1,1fr);
     }
 }
