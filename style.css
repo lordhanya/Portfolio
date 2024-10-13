@@ -141,8 +141,8 @@ span{
 
 .home-img img{
     position: relative;
-    top: .5rem;
-    width: 22vw;
+    top: 1.5rem;
+    width: 25vw;
     border-radius: 50%;
     box-shadow: 0 0 25px rgb(135, 255, 255);
     cursor: pointer;
