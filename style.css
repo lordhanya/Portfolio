@@ -504,7 +504,20 @@ span{
     margin: 1.5rem 0;
     resize: none;
 }
+.contact form label{
+    width: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--text-color);
+    resize: none;
+}
 
+.contact form label:hover{
+    color: var(--main-color);
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+}
 .contact form .btn{
     margin-top: 2rem;
 }
